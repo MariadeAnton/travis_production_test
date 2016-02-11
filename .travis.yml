@@ -3,4 +3,4 @@ script:
   - echo hola
 notifications:
   slack:
-    secure: '$SLACK_TOKEN'
+    secure: "${SLACK_TOKEN}"
