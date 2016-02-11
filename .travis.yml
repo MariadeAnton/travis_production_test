@@ -1,14 +1,7 @@
 language: ruby
 
-services:
-  - riak
-
-before_install:
-  - sudo service riak start
-  
 script:
-  - true
+  - echo hola
 
-branches:
-  only:
-    - master
+notifications:
+  slack: '$SLACK_TOKEN'
