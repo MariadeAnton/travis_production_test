@@ -1,6 +1,6 @@
 language: ruby
 script:
-- echo hi
+  - echo hola
 notifications:
   slack:
     on_pull_requests: false
